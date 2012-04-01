@@ -14,13 +14,38 @@
 
     <!-- local scripts -->
 
+    <script>
+      function changeFont(font) {
+        document.getElementById('font-div').className = font;
+      }
+
+      function changeFontSize(fontsize) {
+        document.getElementById('font-size-div').className = fontsize;
+      }
+    </script>
     <!-- favicons -->
     <link rel="shortcut icon" href="images/favicon.ico">
 
   </head>
   <body>
-    <h1><span class="c64um px16">Hello C64</span></h1><br/>
-
+    <div id="font-div" class="c64u">
+      <div id="font-size-div" class="px16">
+        <h1>Hello C64</h1>
+        <h3>Options</h3>
+        <form action="">
+          <input type="radio" name="font" value="user" onClick="changeFont('c64u');"/>User<br/>
+          <input type="radio" name="font" value="user mono" onClick="changeFont('c64um');"/>User Mono<br/>
+          <input type="radio" name="font" value="pro" onClick="changeFont('c64p');"/>Pro<br/>
+          <input type="radio" name="font" value="pro mono" onClick="changeFont('c64pm');"/>Pro Mono<br/>
+          <br/>
+          <input type="radio" name="size" value="8" onClick="changeFontSize('px8');"/>8 point<br/>
+          <input type="radio" name="size" value="16" onClick="changeFontSize('px16');"/>16 point<br/>
+          <input type="radio" name="size" value="24" onClick="changeFontSize('px24');"/>24 point<br/>
+          <input type="radio" name="size" value="32" onClick="changeFontSize('px32');"/>32 point<br/>
+          <input type="radio" name="size" value="40" onClick="changeFontSize('px40');"/>40 point<br/>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
 

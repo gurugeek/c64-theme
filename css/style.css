@@ -1,4 +1,16 @@
 
+/* Background Colors */
+
+html, body {
+  color: #A0A0FF;
+  background-color: #6C5EB5;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Font Styles */
 @font-face {
 	 font-family: "C64 User";
 	 src: url("../fonts/C64_User_v1.0-STYLE.ttf") format("truetype");
@@ -63,15 +75,4 @@
 	font-size: 30pt;
 	line-height: 40px;
 }
-
-html, body {
-  color: #A0A0FF;
-  background-color: #6C5EB5;
-}
-
-h1 {
-  text-align: center;
-}
-
-
 

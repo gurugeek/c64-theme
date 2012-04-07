@@ -2,8 +2,8 @@
 /* Background Colors */
 
 html, body {
-  color: #A0A0FF;
-  background-color: #A0A0FF;
+  color: #6C5EB5;
+  background-color: #6C5EB5;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -20,7 +20,7 @@ h1 {
   margin-right: auto;
   margin-top: 40px;
   padding: 20px;
-  background-color: #6C5EB5;
+  background-color: #352879;
 }
 
 /* Font Styles */
